@@ -52,13 +52,8 @@ The table below shows the platform features used in the application and where ab
 | Pages                                                                                            |
 | :---------------------------------------------------------------------------------------------------- |
 | Home                                                                                          |
-| [<img alt="default page" style="max-height:300px" align="left" src="images/1.png" />](images/1.png)   |
-| Search city                                                                                           |
-| [<img alt="search city" style="max-height:300px" align="left" src="images/2.png" />](images/2.png)    |
-| Weather report of city in dark mode                                                                   |
-| [<img alt="weather report" style="max-height:300px" align="left" src="images/3.png" />](images/3.png) |
-| Weather report of city in light mode                                                                  |
-| [<img alt="weather report" style="max-height:300px" align="left" src="images/4.png" />](images/4.png) |
+| [<img alt="default page" style="max-height:300px" align="left" src="screenshots/home.png" />](screenshots/home.png)   |
+
 
 ## Some links
 - [Svg icons](https://flowbite.com/icons/)
