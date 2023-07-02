@@ -40,7 +40,11 @@ const Nav = () => {
             <Link href="/create-prompt" className="black_btn">
               Create Post
             </Link>
-            <button type="button" className="outline_btn">
+            <button
+              type="button"
+              className="outline_btn"
+              onClick={() => signOut()}
+            >
               Sign out
             </button>
             <Link href="/profile">
@@ -98,12 +102,16 @@ const Nav = () => {
                 >
                   Create Prompt
                 </Link>
-                <button type="button" onClick={() => {
-                  setToggleDropdown(false);
-                  signOut();
-                }}
-                className="mt-5 w-full black_btn"
-                >Sign Out</button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setToggleDropdown(false);
+                    signOut();
+                  }}
+                  className="mt-5 w-full black_btn"
+                >
+                  Sign Out
+                </button>
               </div>
             )}
           </div>
