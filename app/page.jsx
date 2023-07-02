@@ -1,6 +1,11 @@
 import React from "react";
 import Feed from "@components/Feed";
 
+export const metadata = {
+  title: "Promptopia | Search prompts",
+  discription: "Discover & share ai Prompts",
+};
+
 const Home = () => {
   return (
     <section className="w-full flex-center flex-col">

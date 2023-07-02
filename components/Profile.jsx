@@ -11,7 +11,7 @@ const Profile = ({ name, desc, data, handleEdit, handleDelete, loading }) => {
       <p className="desc text-left">{desc}</p>
       <div className="feed">
         <Loader show={loading} />
-        <EmptyData data={data.length <= 0} />
+        <EmptyData data={data.length <= 0 && loading == false} />
       </div>
       <div className="mt-10 prompt_layout">
         {data.map((post) => (

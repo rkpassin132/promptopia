@@ -85,7 +85,7 @@ const Feed = () => {
       </form>
 
       <Loader show={loading}/>
-      <EmptyData data={allPosts.length <= 0} />
+      <EmptyData data={allPosts.length <= 0 && loading == false} />
       {/* All Prompts */}
       {searchText ? (
         <PromptCardList
