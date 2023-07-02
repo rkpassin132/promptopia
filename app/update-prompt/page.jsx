@@ -5,11 +5,6 @@ import { useRouter, useSearchParams } from "next/navigation";
 
 import Form from "@components/Form";
 
-export const metadata = {
-  title: "Promptopia | Update prompt",
-  discription: "Discover & share ai Prompts",
-};
-
 const UpdatePrompt = () => {
   const router = useRouter();
   const searchParams = useSearchParams();

@@ -6,11 +6,6 @@ import { useRouter } from "next/navigation";
 
 import Form from "@components/Form";
 
-export const metadata = {
-  title: "Create Prompts",
-  discription: "Create your Ai Prompts",
-};
-
 const CreatePrompt = () => {
   const router = useRouter();
   const { data: session } = useSession();

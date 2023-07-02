@@ -5,11 +5,6 @@ import { useSearchParams } from "next/navigation";
 
 import Profile from "@components/Profile";
 
-export const metadata = {
-  title: "User Prompts",
-  discription: "This is user prompts",
-};
-
 const UserProfile = ({ params }) => {
   const searchParams = useSearchParams();
   const userName = searchParams.get("name");

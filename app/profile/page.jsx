@@ -6,11 +6,6 @@ import { useRouter } from "next/navigation";
 
 import Profile from "@components/Profile";
 
-export const metadata = {
-  title: "Your Prompts",
-  discription: "This is you prompts",
-};
-
 const MyProfile = () => {
   const router = useRouter();
   const { data: session } = useSession();
